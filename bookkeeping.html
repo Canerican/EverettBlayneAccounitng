@@ -70,4 +70,142 @@
             font-size: 1.1rem;
             transition: background 0.3s ease;
             border: none;
-            cursor:
+            cursor: pointer;
+        }
+        .cta-button:hover {
+            background: #96254a; /* Bright Maroon */
+        }
+
+        /* Pricing Grid */
+        .pricing-grid {
+            display: flex;
+            gap: 2rem;
+            flex-wrap: wrap;
+            margin-top: 2rem;
+        }
+        .pricing-card {
+            flex: 1;
+            min-width: 300px;
+            background: #ffffff;
+            border: 1px solid #e0e0e0;
+            border-top: 6px solid #8b8589; /* Muted Mauve Accent */
+            padding: 2.5rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.04);
+            transition: transform 0.3s ease;
+        }
+        .pricing-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+        }
+        .pricing-card h3 {
+            color: #51484f;
+            margin-top: 0;
+            font-size: 1.5rem;
+        }
+        .price {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: #7a203e; /* Deep Maroon */
+            margin-bottom: 0.5rem;
+        }
+        .price-subtext {
+            font-size: 0.9rem;
+            color: #666;
+            margin-bottom: 1.5rem;
+            display: block;
+        }
+        .pricing-card ul {
+            padding-left: 1.5rem;
+            margin-bottom: 2rem;
+            color: #555;
+        }
+        .pricing-card li {
+            margin-bottom: 0.5rem;
+        }
+
+        /* Call to Action Section */
+        .booking-section {
+            background-color: #51484f; /* Dark Grey/Plum */
+            color: #ffffff;
+            text-align: center;
+            padding: 4rem 2rem;
+            border-radius: 8px;
+            margin-top: 4rem;
+            border-bottom: 6px solid #96254a; /* Bright Maroon Accent */
+        }
+        .booking-section h2 {
+            margin-top: 0;
+            font-size: 2rem;
+        }
+        .booking-section p {
+            max-width: 600px;
+            margin: 0 auto 2rem;
+            color: #e2e0e1;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 3rem 1rem;
+            background: #8b8589; 
+            color: #ffffff;
+            margin-top: 5rem;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="nav-bar">
+        <a href="index.html">&larr; Back to Main Site</a>
+    </div>
+
+    <header>
+        <div class="container">
+            <h1>Professional Bookkeeping Services</h1>
+            <p>Strategic financial management, accurate reporting, and workflow automation so you can focus on growing your business.</p>
+        </div>
+    </header>
+
+    <div class="container">
+        
+        <div class="pricing-grid">
+            <div class="pricing-card">
+                <h3>The Starter Package</h3>
+                <div class="price">$50 / Hour</div>
+                <span class="price-subtext">2-hour monthly minimum required</span>
+                <p>Perfect for early-stage businesses or individuals needing basic compliance, clean-up, and "lite" monthly maintenance.</p>
+                <ul>
+                    <li>Monthly categorization of bank and credit card transactions</li>
+                    <li>Reconciliation of up to two accounts per month</li>
+                    <li>Delivery of standard monthly financial statements (Balance Sheet & Income Statement)</li>
+                </ul>
+            </div>
+
+            <div class="pricing-card" style="border-top-color: #51484f;">
+                <h3>The Set Hours Package</h3>
+                <div class="price">$1,000 / Month</div>
+                <span class="price-subtext">Up to 20 dedicated hours per month</span>
+                <p>Comprehensive monthly support for businesses needing heavier lifting, cost accounting, and strategic oversight.</p>
+                <ul>
+                    <li>Accounts Payable & Receivable processing</li>
+                    <li>Job order costing, accruals, and advanced reporting</li>
+                    <li>Custom workflow automation to reduce data entry errors</li>
+                    <li>Priority email and phone support during business hours</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="booking-section" id="book">
+            <h2>Ready to streamline your books?</h2>
+            <p>Let's get your accounting system structured for long-term success. Reach out to discuss your current setup and find the right package for you.</p>
+            <a href="#" class="cta-button" style="background-color: #ffffff; color: #7a203e;">Schedule Your Introductory Call</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 EverettBlayne Accounting. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
