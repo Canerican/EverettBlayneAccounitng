@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EverettBlayne Accounting | Professional Bookkeeping Services</title>
+    <title>EverettBlayne Accounting | Bookkeeping Services</title>
     <style>
-        /* General Styles */
+        /* Base Colors */
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             line-height: 1.6;
             margin: 0;
             padding: 0;
             color: #333;
-            background-color: #fcfcfc;
+            background-color: #fbfbfb;
         }
         .container {
             max-width: 1000px;
@@ -20,146 +20,54 @@
             padding: 2rem 1rem;
         }
         
-        /* Header/Hero Section */
-        header {
-            background: #51484f;
-            color: #ffffff;
-            padding: 4rem 1rem;
+        /* Navigation (Simple Back Link) */
+        .nav-bar {
+            background-color: #51484f; /* Dark Grey/Plum */
+            padding: 1rem;
             text-align: center;
+        }
+        .nav-bar a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1rem;
+            letter-spacing: 1px;
+            transition: color 0.3s ease;
+        }
+        .nav-bar a:hover {
+            color: #8b8589; /* Muted Mauve */
+        }
+
+        /* Header */
+        header {
+            background: #ffffff;
+            color: #51484f;
+            padding: 4rem 1rem 2rem;
+            text-align: center;
+            border-bottom: 2px solid #e0e0e0;
         }
         header h1 {
             margin: 0;
-            font-size: 2.5rem;
+            font-size: 2.8rem;
+            color: #7a203e; /* Deep Maroon */
         }
         header p {
             font-size: 1.2rem;
-            margin: 1rem 0 2rem;
-            color: #d1d8e0;
+            margin: 1rem auto 2rem;
+            max-width: 800px;
+            color: #666;
         }
         
         /* Buttons */
         .cta-button {
             display: inline-block;
-            background: #96254a;
+            background: #7a203e; /* Deep Maroon */
             color: #ffffff;
-            padding: 0.75rem 1.5rem;
+            padding: 0.85rem 2rem;
             text-decoration: none;
-            border-radius: 5px;
+            border-radius: 4px;
             font-weight: bold;
+            font-size: 1.1rem;
             transition: background 0.3s ease;
-        }
-        .cta-button:hover {
-            background: #7a203e;
-        }
-
-        /* Pricing Grid */
-        .pricing-grid {
-            display: flex;
-            gap: 2rem;
-            flex-wrap: wrap;
-            margin-top: 2rem;
-        }
-        .pricing-card {
-            flex: 1;
-            min-width: 300px;
-            background: #ffffff;
-            border: 1px solid #eaeaea;
-            padding: 2.5rem;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
-            transition: transform 0.3s ease;
-        }
-        .pricing-card:hover {
-            transform: translateY(-5px);
-        }
-        .pricing-card h3 {
-            color: #2c3e50;
-            margin-top: 0;
-            font-size: 1.5rem;
-        }
-        .price {
-            font-size: 1.8rem;
-            font-weight: bold;
-            color: #96254a;
-            margin-bottom: 0.5rem;
-        }
-        .price-subtext {
-            font-size: 0.9rem;
-            color: #7f8c8d;
-            margin-bottom: 1.5rem;
-            display: block;
-        }
-        .pricing-card ul {
-            padding-left: 1.5rem;
-            margin-bottom: 2rem;
-        }
-        .pricing-card li {
-            margin-bottom: 0.5rem;
-        }
-
-        /* Footer */
-        footer {
-            text-align: center;
-            padding: 2rem;
-            background: #ecf0f1;
-            margin-top: 4rem;
-            color: #7f8c8d;
-        }
-    </style>
-</head>
-<body>
-
-    <header>
-        <div class="container">
-            <h1>EverettBlayne Accounting</h1>
-            <p>Strategic financial management, accurate reporting, and workflow automation so you can focus on growing your business.</p>
-            <a href="#contact" class="cta-button">Book a Free Consultation</a>
-        </div>
-    </header>
-
-    <div class="container">
-        <h2 style="text-align: center; margin-bottom: 1rem;">Transparent Pricing & Services</h2>
-        <p style="text-align: center; max-width: 700px; margin: 0 auto 3rem;">Whether you are a startup needing basic monthly compliance or an established business looking for dedicated support and process automation, EverettBlayne Accounting has a structure that fits your operational needs.</p>
-
-        <div class="pricing-grid">
-            <div class="pricing-card">
-                <h3>The Starter Package</h3>
-                <div class="price">$50 / Hour</div>
-                <span class="price-subtext">2-hour monthly minimum required</span>
-                <p>Perfect for early-stage businesses or individuals needing basic compliance, clean-up, and "lite" monthly maintenance.</p>
-                <ul>
-                    <li>Monthly categorization of bank and credit card transactions</li>
-                    <li>Reconciliation of up to two accounts per month</li>
-                    <li>Delivery of standard monthly financial statements (Balance Sheet & Income Statement)</li>
-                </ul>
-                <a href="#contact" class="cta-button" style="width: 100%; text-align: center; box-sizing: border-box;">Get Started</a>
-            </div>
-
-            <div class="pricing-card" style="border-top: 5px solid #2c3e50;">
-                <h3>The Set Hours Package</h3>
-                <div class="price">$1,000 / Month</div>
-                <span class="price-subtext">Up to 20 dedicated hours per month</span>
-                <p>Comprehensive monthly support for businesses needing heavier lifting, cost accounting, and strategic oversight.</p>
-                <ul>
-                    <li>Accounts Payable & Receivable processing</li>
-                    <li>Job order costing, accruals, and advanced reporting</li>
-                    <li>Custom workflow automation to reduce data entry errors</li>
-                    <li>Priority email and phone support during business hours</li>
-                </ul>
-                <a href="#contact" class="cta-button" style="width: 100%; text-align: center; box-sizing: border-box;">Secure Your Retainer</a>
-            </div>
-        </div>
-
-        <div id="contact" style="margin-top: 5rem; text-align: center; background: #8b8589; padding: 3rem; border-radius: 8px;">
-            <h2>Ready to streamline your books?</h2>
-            <p>Let's get your accounting system structured for long-term success. Reach out to discuss your current setup and find the right package for you.</p>
-            <a href="#" class="cta-button" style="font-size: 1.1rem; padding: 1rem 2rem;">Schedule Your Introductory Call</a>
-        </div>
-    </div>
-
-    <footer>
-        <p>&copy; 2026 EverettBlayne Accounting. All rights reserved.</p>
-    </footer>
-
-</body>
-</html>
+            border: none;
+            cursor:
