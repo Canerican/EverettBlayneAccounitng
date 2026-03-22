@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EverettBlayne Accounting | Consultations</title>
+    <style>
+        /* Base Colors */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #fbfbfb;
+        }
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 2rem 1rem;
+        }
+        
+        /* Navigation (Simple Back Link) */
+        .nav-bar {
+            background-color: #51484f;
+            padding: 1rem;
+            text-align: center;
+        }
+        .nav-bar a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1rem;
+            letter-spacing: 1px;
+            transition: color 0.3s ease;
+        }
+        .nav-bar a:hover {
+            color: #8b8589;
+        }
+
+        /* Header */
+        header {
+            background: #ffffff;
+            color: #51484f;
+            padding: 4rem 1rem 2rem;
+            text-align: center;
+            border-bottom: 2px solid #e0e0e0;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.8rem;
+            color: #7a203e; /* Deep Maroon */
+        }
+        header p {
+            font-size: 1.2rem;
+            margin: 1rem auto 2rem;
+            max-width: 800px;
+            color: #666;
+        }
+        
+        /* Buttons */
+        .cta-button {
+            display: inline-block;
+            background: #7a203e; 
+            color: #ffffff;
+            padding: 0.85rem 2rem;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: bold;
+            font-size: 1.1rem;
+            transition: background 0.3s ease;
+            border: none;
+            cursor: pointer;
+        }
+        .cta-button:hover {
+            background: #96254a; 
+        }
+
+        /* Consultation Grid */
+        .consult-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .consult-card {
+            background: #ffffff;
+            padding: 2.5rem;
+            border-radius: 8px;
+            border-left: 6px solid #8b8589; /* Muted Mauve Accent */
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+        }
+
+        .consult-card h3 {
+            color: #51484f;
+            font-size: 1.5rem;
+            margin-top: 0;
+            margin-bottom: 1rem;
+        }
+
+        .consult-card ul {
+            padding-left: 1.2rem;
+            color: #555;
+        }
+
+        .consult-card li {
+            margin-bottom: 0.5rem;
+        }
+
+        /* Call to Action Section */
+        .booking-section {
+            background-color: #51484f;
+            color: #ffffff;
+            text-align: center;
+            padding: 4rem 2rem;
+            border-radius: 8px;
+            margin-top: 4rem;
+        }
+        .booking-section h2 {
+            margin-top: 0;
+            font-size: 2rem;
+        }
+        .booking-section p {
+            max-width: 600px;
+            margin: 0 auto 2rem;
+            color: #e2e0e1;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 3rem 1rem;
+            background: #8b8589; 
+            color: #ffffff;
+            margin-top: 5rem;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="nav-bar">
+        <a href="index.html">&larr; Back to Main Site</a>
+    </div>
+
+    <header>
+        <div class="container">
+            <h1>Strategic Advisory & Systems Design</h1>
+            <p>Modern accounting requires more than just entering numbers. It requires building robust data pipelines, normalizing databases, and implementing workflows that scale alongside your business.</p>
+        </div>
+    </header>
+
+    <div class="container">
+        
+        <div class="consult-grid">
+            
+            <div class="consult-card">
+                <h3>Workflow Automation & Scripting</h3>
+                <p>Stop wasting hours on manual data entry. I build custom solutions to bridge the gap between your operational software and your accounting system.</p>
+                <ul>
+                    <li>Custom VBA scripting for advanced Excel modeling and reporting.</li>
+                    <li>Python-based data analysis to extract insights from large financial datasets.</li>
+                    <li>Automated transaction categorization and reconciliation workflows.</li>
+                </ul>
+            </div>
+
+            <div class="consult-card" style="border-left-color: #7a203e;">
+                <h3>Database Design & Normalization</h3>
+                <p>Clean data is the foundation of accurate accounting. If your inventory or financial data is a mess, I can help you restructure it.</p>
+                <ul>
+                    <li>SQL query design for custom financial reporting.</li>
+                    <li>Database normalization to eliminate data redundancy and ensure integrity.</li>
+                    <li>Chart of Accounts optimization for improved managerial oversight.</li>
+                </ul>
+            </div>
+
+            <div class="consult-card" style="border-left-color: #96254a;">
+                <h3>Business Strategy & Costing</h3>
+                <p>Translate your financial statements into actionable business strategy using proven analytical frameworks.</p>
+                <ul>
+                    <li>Implementation of precise Job Order Costing systems.</li>
+                    <li>Market positioning and competitive analysis (PESTEL, Porter’s Five Forces).</li>
+                    <li>Cash flow forecasting and budget variance analysis.</li>
+                </ul>
+            </div>
+
+            <div class="consult-card">
+                <h3>Accounting System Setup</h3>
+                <p>Starting from scratch or migrating from legacy software? Get your books set up correctly the very first time.</p>
+                <ul>
+                    <li>Complete QuickBooks Online implementation and historical clean-up.</li>
+                    <li>Integration of third-party payment processors and payroll systems.</li>
+                    <li>Customized financial statement design for your specific industry.</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="booking-section" id="book">
+            <h2>Let's Optimize Your Operations</h2>
+            <p>Whether you need a one-time database clean-up, a custom VBA script, or ongoing strategic advisory, schedule a consultation to discuss your specific technical needs.</p>
+            <a href="#" class="cta-button" style="background-color: #ffffff; color: #7a203e;">Schedule a Strategy Call</a>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 EverettBlayne Accounting. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
